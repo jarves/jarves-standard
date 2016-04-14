@@ -21,6 +21,20 @@ php bin/console propel:migration:up #upgrade the database schema
 php bin/console jarves:install:demo 127.0.0.1 /
 ``` 
 
+### Install dependencies
+
+2.2 Install some dependencies
+
+SCSS
+
+If not already installed (type `sass` on your console), you need to install sass: http://sass-lang.com/install
+
+1. osx: sudo gem install sass
+2. linux: sudo su -c "gem install sass"
+3. windows: see http://sass-lang.com/install
+
+If Jarves can not find the sass binary (by having wrong PATH variable set, that does not contain the path of `sass`, see `which sass`) the administration will be unstyled.
+
 ### Run
 
 `php bin/console server:run`
