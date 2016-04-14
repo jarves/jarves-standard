@@ -23,9 +23,7 @@ php bin/console jarves:install:demo 127.0.0.1 /
 
 ### Install dependencies
 
-2.2 Install some dependencies
-
-SCSS
+#### SCSS
 
 If not already installed (type `sass` on your console), you need to install sass: http://sass-lang.com/install
 
