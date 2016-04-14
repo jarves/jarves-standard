@@ -1,0 +1,6 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+jarves:
+    resource: "@JarvesBundle/Resources/config/routing.yml"
