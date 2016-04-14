@@ -5,11 +5,12 @@ Jarves standard edition is a Symfony 3.0 + Jarves.
 
 All you need to do to run Jarves is:
 
-`git clone git@github.com:jarves/jarves-standard.git`
-
-`composer install`
-
 ```
+git clone git@github.com:jarves/jarves-standard.git
+cd jarves-standard
+
+composer install
+
 php bin/console propel:model:build #build base model
 
 php bin/console propel:migration:diff #generates a database schema diff
