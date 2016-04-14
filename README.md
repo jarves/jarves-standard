@@ -1,7 +1,7 @@
-Jarve Standard Edition
+Jarves Standard Edition
 ========================
 
-Jarves standard edition is a Symfony 3.0 + Jarves.
+Jarves standard edition is a Symfony standard edition 3.0 + Jarves installed.
 
 All you need to do to run Jarves is:
 
