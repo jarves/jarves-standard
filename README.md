@@ -11,6 +11,8 @@ cd jarves-standard
 
 composer install
 
+php bin/console doctrine:database:create #Create the database on MySQL
+
 php bin/console propel:model:build #build base model
 
 php bin/console propel:migration:diff #generates a database schema diff
