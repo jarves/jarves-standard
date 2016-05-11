@@ -11,10 +11,10 @@ cd jarves-standard
 
 composer install
 
-php bin/console propel:database:create #create database
 php bin/console propel:model:build #build base model
 
-vim app/config/config.jarves.xml #change database settings
+vim app/config/config.jarves.xml #change database settings and `groupOwner`
+# make sure your database exists (CREATE DATABASE foobar)
 
 php bin/console propel:migration:diff #generates a database schema diff
 php bin/console propel:migration:up #upgrade the database schema
