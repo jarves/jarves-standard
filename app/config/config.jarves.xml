@@ -26,9 +26,9 @@
         <server>127.0.0.1</server>
         <port></port>
         <!--The schema/database name-->
-        <name>test</name>
+        <name>jarves_test</name>
         <username>root</username>
-        <password></password>
+        <password>marc</password>
       </connection>
     </connections>
   </database> 
@@ -74,6 +74,6 @@
     -->
   <file groupPermission="rw" everyonePermission="r" disableModeChange="false">
     <!--The group owner name-->
-    <groupOwner>staff</groupOwner>
+    <groupOwner></groupOwner>
   </file>
 </config>
