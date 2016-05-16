@@ -1031,12 +1031,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jarves/jarves-demotheme.git",
-                "reference": "d20aa3e09661761cd22631f2988d3b985b75b76d"
+                "reference": "fe5cd80535724b951062de2a8652ffc91f24ff84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jarves/jarves-demotheme/zipball/d20aa3e09661761cd22631f2988d3b985b75b76d",
-                "reference": "d20aa3e09661761cd22631f2988d3b985b75b76d",
+                "url": "https://api.github.com/repos/jarves/jarves-demotheme/zipball/fe5cd80535724b951062de2a8652ffc91f24ff84",
+                "reference": "fe5cd80535724b951062de2a8652ffc91f24ff84",
                 "shasum": ""
             },
             "type": "library",
@@ -1063,7 +1063,7 @@
                 "Jarves",
                 "theme"
             ],
-            "time": "2016-04-09 09:38:39"
+            "time": "2016-04-15 00:47:19"
         },
         {
             "name": "jarves/jarves",
@@ -1071,12 +1071,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jarves/jarves.git",
-                "reference": "682a549536eb1d38dce7509a2447809b58e73e0e"
+                "reference": "8d36423b9ffd7a941d66c948f1e0d24d9741221c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jarves/jarves/zipball/682a549536eb1d38dce7509a2447809b58e73e0e",
-                "reference": "682a549536eb1d38dce7509a2447809b58e73e0e",
+                "url": "https://api.github.com/repos/jarves/jarves/zipball/8d36423b9ffd7a941d66c948f1e0d24d9741221c",
+                "reference": "8d36423b9ffd7a941d66c948f1e0d24d9741221c",
                 "shasum": ""
             },
             "require": {
@@ -1084,6 +1084,7 @@
                 "friendsofsymfony/rest-bundle": "2.0.0-BETA2",
                 "icap/html-diff": ">=1.0.1",
                 "incenteev/composer-parameter-handler": ">=2.0",
+                "kadet/keylighter": "dev-master",
                 "michelf/php-markdown": "^1.6",
                 "nelmio/api-doc-bundle": "~2.5",
                 "php": ">=5.6",
@@ -1126,7 +1127,7 @@
                 "WCMS",
                 "cms"
             ],
-            "time": "2016-04-14 10:53:46"
+            "time": "2016-05-15 16:53:47"
         },
         {
             "name": "jarves/publication-bundle",
@@ -1284,6 +1285,51 @@
                 "schema"
             ],
             "time": "2016-01-25 15:43:01"
+        },
+        {
+            "name": "kadet/keylighter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kadet1090/KeyLighter.git",
+                "reference": "5dda48dce116d0290bebf30e8f778b056817ff1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kadet1090/KeyLighter/zipball/5dda48dce116d0290bebf30e8f778b056817ff1f",
+                "reference": "5dda48dce116d0290bebf30e8f778b056817ff1f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*"
+            },
+            "bin": [
+                "bin/keylighter"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kadet\\Highlighter\\": "."
+                },
+                "files": [
+                    "./functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kacper Donat",
+                    "email": "contact@kadet.net"
+                }
+            ],
+            "description": "Yet another syntax highlighter for PHP",
+            "time": "2016-05-02 21:22:10"
         },
         {
             "name": "michelf/php-markdown",
