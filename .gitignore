@@ -1,3 +1,4 @@
+# Symfony
 /app/config/parameters.yml
 /build/
 /phpunit.xml
@@ -17,3 +18,6 @@
 
 /web/cache/
 /.sass-cache/
+
+# Propel
+/app/propel
