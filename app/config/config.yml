@@ -71,6 +71,12 @@ propel:
                 user:       "%database_user%"
                 password:   "%database_password%"
                 dsn:        "%database_driver%:host=%database_host%;dbname=%database_name%;charset=UTF8"
+                settings:
+                  # we need utf8mb4 to be able to store utf8 emojis.
+                  charset: utf8mb4
+                  queries:
+                    utf8: "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci, COLLATION_CONNECTION = utf8mb4_unicode_ci, COLLATION_DATABASE = utf8mb4_unicode_ci, COLLATION_SERVER = utf8mb4_unicode_ci"
+
 
 # Jarves Configuration
 jarves:
