@@ -79,6 +79,4 @@ propel:
 
 
 # Jarves Configuration
-jarves:
-    admin: true
-    router: true
+jarves: ~
